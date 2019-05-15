@@ -1,0 +1,577 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/mohsin/ontologies/2019/4/Premier_League"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/mohsin/ontologies/2019/4/Premier_League">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="#Wolves"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manchester_City_Budget"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Titles"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Broadcasters"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BroadCaster3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Broadcaster5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manchester_City_Sponsor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chelsea_Stadium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chelsea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BroadCaster1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#have"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arsenal_Sponsor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Budget"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Premier_League_Cup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arsenal_Stadium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#have_a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chelsea_Budget"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manchester_City_Stadium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Premier_League"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transfer_Budget"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arsenal_Budget"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Teams"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#own"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liverpool_Sponsor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PL_Teams"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Broadcaster2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stadium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Broadcaster4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wolves_Stadium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wolves_Budget"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liverpool"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chelsea_Sponsor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Broadcasters"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sponsor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FA_Cup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arsenal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wolves_Sponsor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liverpool_Budget"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liverpool_Stadium"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#StadiumOwned"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TitlesPL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sponsors"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Broadcasters"/>
+        <Class IRI="#Premier_League"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PL_Teams"/>
+        <Class IRI="#Premier_League"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sponsors"/>
+        <Class IRI="#Premier_League"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stadium"/>
+        <Class IRI="#Premier_League"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Titles"/>
+        <Class IRI="#Premier_League"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transfer_Budget"/>
+        <Class IRI="#Premier_League"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#PL_Teams"/>
+        <NamedIndividual IRI="#Arsenal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transfer_Budget"/>
+        <NamedIndividual IRI="#Arsenal_Budget"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sponsors"/>
+        <NamedIndividual IRI="#Arsenal_Sponsor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stadium"/>
+        <NamedIndividual IRI="#Arsenal_Stadium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Broadcasters"/>
+        <NamedIndividual IRI="#BroadCaster1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Broadcasters"/>
+        <NamedIndividual IRI="#BroadCaster3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Broadcasters"/>
+        <NamedIndividual IRI="#Broadcaster2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Broadcasters"/>
+        <NamedIndividual IRI="#Broadcaster4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Broadcasters"/>
+        <NamedIndividual IRI="#Broadcaster5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PL_Teams"/>
+        <NamedIndividual IRI="#Chelsea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transfer_Budget"/>
+        <NamedIndividual IRI="#Chelsea_Budget"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sponsors"/>
+        <NamedIndividual IRI="#Chelsea_Sponsor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stadium"/>
+        <NamedIndividual IRI="#Chelsea_Stadium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Titles"/>
+        <NamedIndividual IRI="#FA_Cup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PL_Teams"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transfer_Budget"/>
+        <NamedIndividual IRI="#Liverpool_Budget"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sponsors"/>
+        <NamedIndividual IRI="#Liverpool_Sponsor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stadium"/>
+        <NamedIndividual IRI="#Liverpool_Stadium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PL_Teams"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transfer_Budget"/>
+        <NamedIndividual IRI="#Manchester_City_Budget"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sponsors"/>
+        <NamedIndividual IRI="#Manchester_City_Sponsor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stadium"/>
+        <NamedIndividual IRI="#Manchester_City_Stadium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Titles"/>
+        <NamedIndividual IRI="#Premier_League_Cup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PL_Teams"/>
+        <NamedIndividual IRI="#Wolves"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transfer_Budget"/>
+        <NamedIndividual IRI="#Wolves_Budget"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stadium"/>
+        <NamedIndividual IRI="#Wolves_Stadium"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Arsenal"/>
+        <NamedIndividual IRI="#Arsenal_Sponsor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_a"/>
+        <NamedIndividual IRI="#Arsenal"/>
+        <NamedIndividual IRI="#Arsenal_Budget"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#own"/>
+        <NamedIndividual IRI="#Arsenal"/>
+        <NamedIndividual IRI="#Arsenal_Stadium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Chelsea"/>
+        <NamedIndividual IRI="#Chelsea_Sponsor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_a"/>
+        <NamedIndividual IRI="#Chelsea"/>
+        <NamedIndividual IRI="#Chelsea_Budget"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#own"/>
+        <NamedIndividual IRI="#Chelsea"/>
+        <NamedIndividual IRI="#Chelsea_Stadium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_a"/>
+        <NamedIndividual IRI="#Liverpool"/>
+        <NamedIndividual IRI="#Liverpool_Budget"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#own"/>
+        <NamedIndividual IRI="#Liverpool"/>
+        <NamedIndividual IRI="#Liverpool_Stadium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+        <NamedIndividual IRI="#Manchester_City_Sponsor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_a"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+        <NamedIndividual IRI="#Manchester_City_Budget"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#own"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+        <NamedIndividual IRI="#Manchester_City_Stadium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Wolves"/>
+        <NamedIndividual IRI="#Wolves_Sponsor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_a"/>
+        <NamedIndividual IRI="#Wolves"/>
+        <NamedIndividual IRI="#Wolves_Budget"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#own"/>
+        <NamedIndividual IRI="#Wolves"/>
+        <NamedIndividual IRI="#Wolves_Stadium"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Teams"/>
+        <NamedIndividual IRI="#Arsenal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Arsenal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Budget"/>
+        <NamedIndividual IRI="#Arsenal_Budget"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">40Million£</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sponsor"/>
+        <NamedIndividual IRI="#Arsenal_Sponsor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Emirates</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#StadiumOwned"/>
+        <NamedIndividual IRI="#Arsenal_Stadium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Emirates</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Broadcasters"/>
+        <NamedIndividual IRI="#BroadCaster1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sky Sports</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Broadcasters"/>
+        <NamedIndividual IRI="#BroadCaster3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Nbc Sports</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Broadcasters"/>
+        <NamedIndividual IRI="#Broadcaster2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Espn Brasil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Broadcasters"/>
+        <NamedIndividual IRI="#Broadcaster4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sky Pacific</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Broadcasters"/>
+        <NamedIndividual IRI="#Broadcaster5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Bein Sports</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Teams"/>
+        <NamedIndividual IRI="#Chelsea"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Chealsea</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Budget"/>
+        <NamedIndividual IRI="#Chelsea_Budget"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">50million£</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sponsor"/>
+        <NamedIndividual IRI="#Chelsea_Sponsor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Yokohama</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#StadiumOwned"/>
+        <NamedIndividual IRI="#Chelsea_Stadium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Stamford Bridge</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TitlesPL"/>
+        <NamedIndividual IRI="#FA_Cup"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">FA Cup</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Teams"/>
+        <NamedIndividual IRI="#Liverpool"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Liverpool</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Budget"/>
+        <NamedIndividual IRI="#Liverpool_Budget"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">60million£</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sponsor"/>
+        <NamedIndividual IRI="#Liverpool_Sponsor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Standard Chartered</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#StadiumOwned"/>
+        <NamedIndividual IRI="#Liverpool_Stadium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Anfield</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Teams"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Manchester City</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Budget"/>
+        <NamedIndividual IRI="#Manchester_City_Budget"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">70million£</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sponsor"/>
+        <NamedIndividual IRI="#Manchester_City_Sponsor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ethiad Airways</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Budget"/>
+        <NamedIndividual IRI="#Manchester_City_Stadium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Etihad</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TitlesPL"/>
+        <NamedIndividual IRI="#Premier_League_Cup"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Premier_League_Cup</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Teams"/>
+        <NamedIndividual IRI="#Wolves"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Wolves</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Budget"/>
+        <NamedIndividual IRI="#Wolves_Budget"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">20million£</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Broadcasters"/>
+        <NamedIndividual IRI="#Wolves_Sponsor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CoinDeal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#StadiumOwned"/>
+        <NamedIndividual IRI="#Wolves_Stadium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Molineux Stadium</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#have"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#have_a"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#own"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#have"/>
+        <Class IRI="#PL_Teams"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#have_a"/>
+        <Class IRI="#PL_Teams"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#own"/>
+        <Class IRI="#PL_Teams"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#have"/>
+        <Class IRI="#Sponsors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#have_a"/>
+        <Class IRI="#Transfer_Budget"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#own"/>
+        <Class IRI="#Stadium"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Budget"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#StadiumOwned"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Teams"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Broadcasters"/>
+        <Class IRI="#Broadcasters"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Budget"/>
+        <Class IRI="#Transfer_Budget"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Sponsor"/>
+        <Class IRI="#Sponsors"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#StadiumOwned"/>
+        <Class IRI="#Stadium"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Teams"/>
+        <Class IRI="#PL_Teams"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TitlesPL"/>
+        <Class IRI="#Titles"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Broadcasters"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Budget"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Sponsor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#StadiumOwned"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Teams"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#TitlesPL"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
